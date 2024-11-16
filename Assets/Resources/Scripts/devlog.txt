@@ -1,0 +1,71 @@
+10/3/24 THU 
+-Alr got 5, eh, 4 days to cook. Plan time. Ok. Cue cooking music.
+-Steps, what needs to happen in rough order.
+ -Make the elevator wall and window, the window split into 45 parts, though 47 keys will be used.
+ -map each key to its section of the window and the surrounding sections.
+ -create a way to destory window pices, then click a button to repair the repsective piece.
+ -upward paralax scrolling background whcih scrolls through space. different colored space though which should 
+  be easy as use the shift b and r in aepsrite.
+ -screenshake and indicator when glass breaks.
+ -animations for when little aliens and meteors and birds and stuff hit the glass.
+ -link animations to glass break 
+ -oxygen bar which increases if glass full, then decreases by X for every X glas pieces broken. 
+ -little death animation when game over when dead.
+ -menu screen and general GUI.
+PLAN:
+THU
+ -Get keys to link to their pieces of glass, get sketch of elevator window and frame.
+FRI 
+ -method of "destorying glass"
+ -scrolling background
+SAT 
+ -oxygen bar
+ -things that break the glass
+SUN 
+ -menu 
+MON 
+-overflow and "polish"
+
+-Ok taking A BIT longer than expected for the window but tbh thats to be expected. So yeah I got the process 
+ down and have a good ideas in mind of how the keys will bind to it. Uploading the tiles will be more tedious 
+ than difficult or challenging. Will just shut off brain and do a bit of grinding later.
+-Ooh organize into a matrix: 
+ -top row has 12C
+ -second had 12C
+ -third has 10C
+ -fourth has 10C
+-Can iterate through but skip if row >2 and if index >10. ok brb.
+-We back.
+
+IDEAS:
+-make it so pressing a key doesnt auto repair all thats next
+-screenshake... gtg rn
+
+-Going to bed soon, need to make shakes more unpredicable and some of them more spiky so it not consistent ones 
+ rather one big one. night.
+
+10/3/24 FRI 
+-Pivot! Ok you clean off the goo iunstead of repair the glass because then space looks cooler.
+-Bar is now a "Wonder Bar" and you die if you get bored!
+-NOPE instantiator which floats random space debris and planets upward and downward for that matter, will just 
+ take random one from array of options and place it right outside of window view.
+-put rat sitting on the windowsill of the elevator?
+-ooh DONE make the eleator windowsill have an actual ledge opposed to just being a border, make it pop more...
+-need to convert coords to pane num.
+-DONE add splat animation, different aliens and make them different/random sizes. cool.
+-oxygenbar tmr.
+
+-Ok tmr, going to get the oxygenbar visuals working and the system moderately balanced, the goo animation
+ instantiator, also pimp up the elevator wall visuals. Oh and get the shaking to work in sync with the 
+
+10/4/24 SAT 
+-Dude this game slaps. its lowkey fun. Need to do some balancing though lol.
+-main TODOS are creating a menu, making a restart button and making a scoreboard. im thinking press space to 
+ start from white screen, then 
+-alr the space to start is a bit buggy still, need to work on that. need to add high score where it takes the 
+ amount of open tiles, multiplies by the level, multipliues by 10, every second.
+-ok think im done for the day with this, lots of good work though.
+
+-TODO make a newhighscore screen when well, yeah.
+-TODO make the elevator cutscene.
+-TODO add sounds.
